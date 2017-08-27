@@ -48,4 +48,4 @@ def do( n=10**15 ):
     for _ in range(n - 1 - step): ans += sum(map(int, str(ans)))
     return ans
 
-print( do(10**17) )
+print( do(10**100) )
